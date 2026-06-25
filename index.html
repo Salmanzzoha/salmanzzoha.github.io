@@ -1,36 +1,252 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-    <title>Salman Zzoha</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Salman Zzoha | Portfolio</title>
+
+<style>
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Segoe UI, sans-serif;
+}
+
+body{
+    background:#0f172a;
+    color:white;
+    line-height:1.6;
+}
+
+header{
+    text-align:center;
+    padding:80px 20px;
+    background:linear-gradient(135deg,#1e293b,#0f172a);
+}
+
+header h1{
+    font-size:3rem;
+}
+
+header p{
+    margin-top:15px;
+    color:#cbd5e1;
+}
+
+.btn{
+    display:inline-block;
+    margin-top:20px;
+    padding:12px 25px;
+    background:#2563eb;
+    color:white;
+    text-decoration:none;
+    border-radius:8px;
+}
+
+section{
+    max-width:1100px;
+    margin:auto;
+    padding:70px 20px;
+}
+
+h2{
+    margin-bottom:25px;
+    color:#60a5fa;
+}
+
+.skills{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(180px,1fr));
+    gap:15px;
+}
+
+.skill{
+    background:#1e293b;
+    padding:15px;
+    border-radius:10px;
+    text-align:center;
+}
+
+.projects{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(300px,1fr));
+    gap:20px;
+}
+
+.card{
+    background:#1e293b;
+    padding:20px;
+    border-radius:12px;
+}
+
+.card h3{
+    margin-bottom:10px;
+}
+
+footer{
+    text-align:center;
+    padding:30px;
+    border-top:1px solid #334155;
+}
+
+a{
+    color:#60a5fa;
+    text-decoration:none;
+}
+</style>
 </head>
+
 <body>
 
+<header>
+
 <h1>Salman Zzoha</h1>
-<h3>Final-Year CSE Student | AIUB</h3>
 
 <p>
-Interested in Software Quality Assurance, Machine Learning,
-Software Engineering, and Full-Stack Development.
+Final-Year Computer Science & Engineering Student | AIUB
 </p>
+
+<p>
+Software Quality Assurance • Software Engineering • Machine Learning • Full-Stack Development
+</p>
+
+<a class="btn" href="https://github.com/Salmanzzoha" target="_blank">
+View GitHub
+</a>
+
+</header>
+
+<section>
+
+<h2>About Me</h2>
+
+<p>
+I am a Final-Year Computer Science & Engineering student at the American International University-Bangladesh (AIUB). My interests include Software Quality Assurance, Software Engineering, Artificial Intelligence, Machine Learning, and Full-Stack Development. I enjoy building practical software solutions and conducting research that solves real-world problems.
+</p>
+
+</section>
+
+<section>
+
+<h2>Technical Skills</h2>
+
+<div class="skills">
+
+<div class="skill">Python</div>
+<div class="skill">Java</div>
+<div class="skill">C#</div>
+<div class="skill">JavaScript</div>
+<div class="skill">PHP</div>
+<div class="skill">SQL</div>
+<div class="skill">AWS</div>
+<div class="skill">Machine Learning</div>
+<div class="skill">Data Analysis</div>
+<div class="skill">UML</div>
+<div class="skill">Agile</div>
+<div class="skill">Software Testing</div>
+
+</div>
+
+</section>
+
+<section>
 
 <h2>Projects</h2>
 
-<ul>
-    <li>Online Library System</li>
-    <li>Vibe Cloud</li>
-    <li>Science Learning Platform with AR</li>
-    <li>Intelligent Waste Classification</li>
-</ul>
+<div class="projects">
+
+<div class="card">
+<h3>Online Library System</h3>
+<p>
+Developed a web-based library management platform with authentication, book tracking, and administrative management features.
+</p>
+</div>
+
+<div class="card">
+<h3>Vibe Cloud</h3>
+<p>
+Cloud-based music streaming platform developed using Node.js, MySQL, AWS, and Agile methodologies.
+</p>
+</div>
+
+<div class="card">
+<h3>Science Learning Platform with AR</h3>
+<p>
+Designed a complete software requirements specification and UML architecture for an augmented reality learning platform.
+</p>
+</div>
+
+<div class="card">
+<h3>Intelligent Waste Classification System</h3>
+<p>
+Research project focused on AI-driven waste classification and smart urban waste management.
+</p>
+</div>
+
+</div>
+
+</section>
+
+<section>
+
+<h2>Research</h2>
+
+<div class="card">
+
+<h3>Intelligent Analysis of Mental Health Data</h3>
+
+<p>
+AI-based framework for identifying mental health risks using predictive classification models and data analysis techniques.
+</p>
+
+</div>
+
+</section>
+
+<section>
+
+<h2>Education</h2>
+
+<div class="card">
+
+<h3>American International University-Bangladesh (AIUB)</h3>
+
+<p>BSc in Computer Science & Engineering</p>
+
+<p>Expected Graduation: 2026</p>
+
+</div>
+
+</section>
+
+<section>
 
 <h2>Contact</h2>
 
 <p>Email: salmanzoha962@gmail.com</p>
 
 <p>
+GitHub:
 <a href="https://github.com/Salmanzzoha">
-GitHub Profile
+github.com/Salmanzzoha
 </a>
 </p>
+
+<p>
+LinkedIn:
+<a href="https://linkedin.com/in/salmanzzoha">
+linkedin.com/in/salmanzzoha
+</a>
+</p>
+
+</section>
+
+<footer>
+
+<p>© 2026 Salman Zzoha</p>
+
+</footer>
 
 </body>
 </html>
